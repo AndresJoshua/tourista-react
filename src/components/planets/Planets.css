@@ -1,0 +1,147 @@
+.planets_section {
+  margin-top: 150px;
+  padding-top: 200px;
+  height: 1000px;
+  background-image: url('hills.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+.tabButtons {
+  margin-bottom: 150px;
+ margin-right: 520px;
+}
+
+.tabButtons button {
+  font-weight: 600;
+  box-shadow: 3px 5px 1px 5px rgba(0,0,0,0.7);
+  background-color: rgba(255,255,255,0.2);
+  top: 500px;
+  font-size: 25px;
+  padding: 5px 10px;
+  
+  margin-top: 30px;
+  margin-right: 40px;
+  border-radius: 30px; 
+  color: #00ffff;
+  transition: all 0.25s;
+  cursor: pointer;
+  border: 2px solid #00ffff;
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
+.tabButtons button:hover {
+  background-color: #08c6c639;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.planet {
+  margin-top: 120px;
+  width: 600px;
+  border-radius: 20px;
+  /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+  animation: planetEntrance 2s;
+  background-color: rgba(255,255,255,0.);
+  box-shadow: 2px 2px 5px 10px rgba(0,0,0,0.5);
+  backdrop-filter: blur(2px);
+  padding: 20px;
+}
+
+@keyframes planetEntrance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.descriptions {
+  width: 500px;
+  margin-left: 50px;
+  overflow-x: hidden;
+  margin-top: 120px;
+}
+
+.description_title {
+  font-size: 60px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-left: 0px;
+  text-align: left;
+  font-weight: bold;
+  animation: titleEntrance 1s;
+  font-family: Copperplate, Papyrus, fantasy;
+  border-bottom: 3px solid white;
+}
+
+@keyframes titleEntrance {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.description_list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.description_list li {
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 25px;
+  color: #000000;
+  opacity: 1;
+  animation: textEntrance 1s ease-out;
+  animation-fill-mode: backwards;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  font-weight: 600;
+  font-style: italic;
+  
+}
+
+.description_list li:nth-child(1) {
+  animation-delay: 0s;
+}
+
+.description_list li:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.description_list li:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+@keyframes textEntrance {
+  0% {
+    transform: translatex(350px);
+    opacity: 0;
+  }
+
+  50% {
+    transform: translatex(40px);
+  }
+
+  100% {
+    transform: translatex(0);
+    opacity: 1;
+  }
+}
+
+.description_list li:last-child {
+  border-bottom: none;
+}

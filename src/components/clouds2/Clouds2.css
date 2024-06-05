@@ -1,0 +1,42 @@
+.wiw3,
+.wiw4, 
+.wiw5,
+.wiw6,
+.wiw7 {
+ 
+  position: absolute;
+  top: 185vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  
+  animation: cloudsAnimation 350s linear infinite;
+}
+
+@keyframes cloudsAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 1000% 0%;
+  }
+}
+
+.wiw3 {
+  background-image: url('cloud1.jpg');
+}
+
+.wiw4 {
+  background-image: url('cloud2.jpg');
+}
+.wiw5 {
+  background-image: url('cloud3.jpg');
+}
+.wiw6 {
+  background-image: url('cloud4.jpg');
+}
+.wiw7 {
+  background-image: url('cloud5.jpg');
+}

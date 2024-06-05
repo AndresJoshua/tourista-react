@@ -1,0 +1,11 @@
+import apple from './images/apple.png';
+import banana from './images/banana.png';
+import grapes from './images/grapes.png';
+
+const bannerImages = [
+  apple,
+  banana,
+  grapes,
+]
+
+export default bannerImages;

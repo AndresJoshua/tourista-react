@@ -1,0 +1,53 @@
+.footer2 {
+    background-color: rgba(0,0,0,0.8);
+      color: white;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      
+      backdrop-filter: blur(5px);
+      border-top: px solid white;
+      padding: 10px;
+      display: flex;
+  justify-content: space-between;
+    }
+    .gutom2 a{
+  
+        margin-left: 30px;
+        font-family: 'Brush Script MT', cursive;
+        font-size: 43px;
+              background: linear-gradient(to right, #ffffff, #00ffff);
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+              color: transparent;
+      
+          transition: all 1s ease 0s;
+      
+        cursor: pointer;
+      }
+      
+      .gutom2 a:hover {
+        background: linear-gradient(to right, #00ffff, #ffffff);
+              -webkit-background-clip: text;
+              background-clip: text;
+              -webkit-text-fill-color: transparent;
+              color: transparent;
+      
+      }
+
+      .facebook2 {
+      
+        margin-top: 20px;
+        height: 20px;
+        width: 20px;
+      }
+      .social-icons {
+        display: flex;
+        margin-top: 10px;
+      }
+      
+      .social-icons > * {
+        margin-right: 20px; 
+      }
+      

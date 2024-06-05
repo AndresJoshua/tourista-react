@@ -1,0 +1,42 @@
+.banner3,
+.banner4, 
+.banner5,
+.banner6,
+.banner7 {
+ 
+  position: absolute;
+  top: 38vh;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: bottom;
+  
+  animation: cloudsAnimation 150s linear infinite;
+}
+
+@keyframes cloudsAnimation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 1000% 0%;
+  }
+}
+
+.banner3 {
+  background-image: url('cloud1.jpg');
+}
+
+.banner4 {
+  background-image: url('cloud2.jpg');
+}
+.banner5 {
+  background-image: url('cloud3.jpg');
+}
+.banner6 {
+  background-image: url('cloud4.jpg');
+}
+.banner7 {
+  background-image: url('cloud5.jpg');
+}

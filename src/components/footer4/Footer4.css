@@ -1,0 +1,55 @@
+.footer4 {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+  backdrop-filter: blur(25px);
+  border-top: px solid white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.terms {
+  margin-top: 10px; 
+}
+
+.terms a,
+.gutom4 a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-family: "Courier New", Courier, monospace;
+  position: relative; 
+}
+
+.terms a::after,
+.gutom4 a::after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -7px;
+  width: 100%;
+  height: 2px;
+  background-color: #00FFFF;
+  visibility: hidden; 
+  transform: scaleX(0); 
+  transition: all 0.8s ease-in-out; 
+}
+
+.terms a:hover::after,
+.gutom4 a:hover::after {
+  visibility: visible; 
+  transform: scaleX(1); 
+}
+
+.gutom4 {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.privacy {
+  color: lightskyblue;
+  font-family: "Courier New", Courier, monospace;
+}
