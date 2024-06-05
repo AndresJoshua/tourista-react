@@ -1,0 +1,40 @@
+{
+  "files": {
+    "main.css": "/tourista-react/static/css/main.d12bb360.css",
+    "main.js": "/tourista-react/static/js/main.d7c25bbd.js",
+    "static/js/592.d17031d6.chunk.js": "/tourista-react/static/js/592.d17031d6.chunk.js",
+    "static/media/swim.png": "/tourista-react/static/media/swim.418456ab236faacff268.png",
+    "static/media/philippines.png": "/tourista-react/static/media/philippines.148e9078de1d31b7f12e.png",
+    "static/media/cloud4.jpg": "/tourista-react/static/media/cloud4.d6d2482cad00d1249394.jpg",
+    "static/media/cloud5.jpg": "/tourista-react/static/media/cloud5.2b00aa33f09440ccb96b.jpg",
+    "static/media/cloud3.jpg": "/tourista-react/static/media/cloud3.9328a85b3cf03bf84ee6.jpg",
+    "static/media/promo.jpg": "/tourista-react/static/media/promo.333a94bfafd4b18ae4af.jpg",
+    "static/media/caves5.jpg": "/tourista-react/static/media/caves5.0db67247049c95a4676d.jpg",
+    "static/media/boracay3.jpg": "/tourista-react/static/media/boracay3.6566bb17865ba395ccf1.jpg",
+    "static/media/fiesta3.jpg": "/tourista-react/static/media/fiesta3.48272d7a609a54a2899b.jpg",
+    "static/media/cloud1.jpg": "/tourista-react/static/media/cloud1.deebc7b5ced3c8ad3222.jpg",
+    "static/media/cloud2.jpg": "/tourista-react/static/media/cloud2.d30b116bea0977a389cb.jpg",
+    "static/media/banawe.png": "/tourista-react/static/media/banawe.23f791f7f8d5229499a3.png",
+    "static/media/footer.jpg": "/tourista-react/static/media/footer.5eb677d1ced2095b7fe6.jpg",
+    "static/media/eagle7.jpg": "/tourista-react/static/media/eagle7.1cf224bd6780e24a3f50.jpg",
+    "static/media/rizal2.jpg": "/tourista-react/static/media/rizal2.213cfde8736322ac4d49.jpg",
+    "static/media/hills.jpg": "/tourista-react/static/media/hills.f15409875169a532c407.jpg",
+    "static/media/coron.png": "/tourista-react/static/media/coron.d08d96da3c5365e1fbd7.png",
+    "static/media/mayon.png": "/tourista-react/static/media/mayon.621277c81ba2ab6d5500.png",
+    "static/media/fort.jpg": "/tourista-react/static/media/fort.57181afc47472a86fd5c.jpg",
+    "static/media/hills.png": "/tourista-react/static/media/hills.cfc1afa3b80ef8c97856.png",
+    "static/media/water.png": "/tourista-react/static/media/water.c7abdc3dea38e11266f3.png",
+    "static/media/snurkling.jpg": "/tourista-react/static/media/snurkling.70467309747be7281b13.jpg",
+    "static/media/ocean.jpg": "/tourista-react/static/media/ocean.bf5a3ac2a6afd0573af0.jpg",
+    "static/media/gradient6.jpg": "/tourista-react/static/media/gradient6.4dd4d498dabbd8302bd7.jpg",
+    "static/media/beach.png": "/tourista-react/static/media/beach.7444c066d27debe7508b.png",
+    "index.html": "/tourista-react/index.html",
+    "main.d12bb360.css.map": "/tourista-react/static/css/main.d12bb360.css.map",
+    "main.d7c25bbd.js.map": "/tourista-react/static/js/main.d7c25bbd.js.map",
+    "592.d17031d6.chunk.js.map": "/tourista-react/static/js/592.d17031d6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d12bb360.css",
+    "static/js/main.d7c25bbd.js"
+  ]
+}
